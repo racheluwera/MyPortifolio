@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rachel</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-white text-white">
+
+  <!-- NAVBAR -->
+  <header class="bg-blue-600 flex items-center justify-between px-8 py-4  shadow-md sticky top-0 z-50">
+    <div class="flex items-center gap-4">
+      <img src="C:\Users\user\Pictures\Rachel-removebg-preview.png" 
+           alt="My Photo" 
+           class="w-14 h-14 object-cover rounded-full border-2 border-gray-300 shadow-sm">
+      <h1 class="text-2xl font-bold tracking-wide text-gray-800">MR</h1>
+    </div>
+      <nav>
+        <ul class="flex gap-6 text-gray-300">
+          <li><a href="#home" class="hover:text-blue-400">Home</a></li>
+          <li><a href="#about" class="hover:text-blue-400">About</a></li>
+          <li><a href="#skills" class="hover:text-blue-400">Skills</a></li>
+          <li><a href="#blogs" class="hover:text-blue-400">Blogs</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between px-6 py-16">
+    <!-- Left Content -->
+    <div class="md:w-1/2 space-y-4">
+      <h2 class="text-3xl md:text-4xl font-bold">Software Developer</h2>
+      <p class="text-gray-600">
+        A passionate and creative web developer specializing in designing responsive, user-friendly, and visually appealing websites that deliver excellent user experiences
+        <div class="flex justify-center"></div>
+      <a href="#contact" class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-md inline-block">
+        Hire Me
+      </a>
+      </div>
+    </div>
+    <!-- Right Profile Image -->
+    <div class="mt-8 md:mt-0">
+      <img src="C:\Users\user\Pictures\Rachel-removebg-preview.png"alt="Profile"
+           class="w-65 h-76 rounded-lg  shadow-lg object-cover">
+      <div class="flex justify-center gap-4 mt-4">
+        <a href="#" class="text-blue-400 hover:text-blue-500 text-xl">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="#" class="text-blue-400 hover:text-blue-500 text-xl">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class=" max-w-6xl mx-auto px-6 py-15">
+    <h2 class="text-2xl font-bold mb-4 text-blue-400">About</h2>
+    <p class="text-gray-900 leading-relaxed">
+      I’m a passionate web developer with a keen interest in creating dynamic and user-friendly web applications.
+      With a background in front-end and back-end development, I specialize in modern JavaScript frameworks, 
+      bringing ideas to life through code.
+    </p>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="max-w-6xl mx-auto px-6 py-12">
+    <h2 class="text-2xl font-bold mb-6 text-blue-400">Skills</h2>
+    <ul class="flex space-x-10 justify-center items-center">
+      <li><span class="text-yellow-400 font-bold">HTML</span>
+      <p class="text-gray-900 leading-relaxed">.The backbone of any webpage.</p>
+       <p class="text-gray-900 leading-relaxed">.Define the structure of web page using elements like div.</p></li> 
+      <li><span class="text-yellow-400 font-bold">CSS</span>
+        <p class="text-gray-900 leading-relaxed">.Used for styling HTML elements.</p>
+        <p class="text-gray-900 leading-relaxed">.Controls layout, font, color and responsiveness.</p></li> 
+      <li><span class="text-yellow-400 font-bold">JavaScript</span>
+        <p class="text-gray-900 leading-relaxed">.Adds interactivity to web pages.</p>
+       <p class="text-gray-900 leading-relaxed">.Handle user events like click, form validation and animations.</p></li> 
+    </ul>
+  </section>
+
+  <!-- BLOGS SECTION -->
+  <section id="blogs" class="max-w-6xl mx-auto px-6 py-12 w-55 grid-cols-2">
+    <h2 class="text-2xl font-bold mb-6 text-blue-400">Blogs</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <!-- Blog Card -->
+      <div class=" p-4 rounded-lg shadow-md">
+        <img src="C:\Users\user\Pictures\images.jpeg" alt="Backend Blog" class="rounded-md mb-4">
+        <h3 class="text-xl font-bold text-blue-400">BACKEND</h3>
+        <p class="text-gray-900 text-black">Backend development, database design, server-side logic.</p>
+      </div>
+      <!-- Blog Card -->
+      <div class=" p-4 rounded-lg shadow-md ">
+        <img src="C:\Users\user\Pictures\download2.jpeg" alt="Frontend Blog" class="rounded-md mb-4">
+        <h3 class="text-xl font-semibold text-blue-400">FRONTEND</h3>
+        <p class="text-gray-900 text-black">Frontend development, UI/UX design, interactivity.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="max-w-4xl mx-auto px-6 py-12 text-center">
+    <h2 class="text-2xl font-bold mb-6 text-blue-400">Let's design together!</h2>
+    <form class="flex justify-center gap-2">
+      <input type="email" placeholder="Your email"
+             class="px-4 py-2 w-64 rounded-md bg-white-600 text-black border border-gray-600 focus:outline-none focus:border-blue-400">
+       <a href="contact.html" class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-md inline-block">
+        Contact me
+      </button>
+    </form>
+  
+   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</section>
+
+   <!-- FOOTER -->
+  <footer class="bg-gray-900 text-gray-400 mt-12">
+    <div class="max-w-6xl mx-auto px-4 py-6 flex flex-col items-center space-y-3">
+      
+      <!-- Social Media Icons -->
+      <div class="flex space-x-6">
+        <a href="#" class="p-3 rounded-full bg-gray-800 hover:bg-green-500 transition duration-300">
+          <i class="fab fa-whatsapp text-xl"></i>
+        </a>
+        <a href="#" class="p-3 rounded-full bg-gray-800 hover:bg-blue-500 transition duration-300">
+          <i class="fab fa-facebook-f text-xl"></i>
+        </a>
+        <a href="#" class="p-3 rounded-full bg-gray-800 hover:bg-blue-400 transition duration-300">
+          <i class="fab fa-linkedin-in text-xl"></i>
+        </a>
+        <a href="#" class="p-3 rounded-full bg-gray-800 hover:bg-red-500 transition duration-300">
+          <i class="fab fa-youtube text-xl"></i>
+        </a>
+      </div>
+
+      <!-- Footer Links -->
+      <ul class="flex flex-wrap justify-center gap-6 text-sm">
+        <li><a href="#home" class="hover:text-blue-400 transition">Home</a></li>
+        <li><a href="#about" class="hover:text-blue-400 transition">About</a></li>
+        <li><a href="#skills" class="hover:text-blue-400 transition">Skills</a></li>
+        <li><a href="#blogs" class="hover:text-blue-400 transition">Blogs</a></li>
+        <li><a href="#contact" class="hover:text-blue-400 transition">Contact</a></li>
+      </ul>
+
+      <!-- Copyright -->
+      <p class="text-sm text-gray-500">© 2025 Rachel. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
