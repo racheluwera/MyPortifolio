@@ -39,7 +39,8 @@
     }
     
     .nav-link {
-      position: relative;
+      /* position: relative; */
+      display: flex;
     }
     
     .nav-link::after {
@@ -71,7 +72,8 @@
         <h1 class="text-xl font-bold text-blue-600 tracking-wide">Rachel</h1>
       </div>
       <!-- Nav Links -->
-      <nav><nav class="hidden md:flex gap-6 text-gray-700 font-medium">
+       <ul>
+        <nav class="hidden md:flex gap-6 text-gray-700 font-medium">
           <li><a href="#home" class="nav-link hover:text-blue-500 transition">Home</a></li>
           <li><a href="#about" class="nav-link hover:text-blue-500 transition">About</a></li>
           <li><a href="#skills" class="nav-link hover:text-blue-500 transition">Skills</a></li>
